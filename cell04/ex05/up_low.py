@@ -4,9 +4,9 @@ try:
     word = input("")
     for char in word:
         if char.islower():
-            print(char.upper())
+            print(char.upper(), end="")
         elif char.isupper():
-            print(char.lower())
+            print(char.lower(), end="")
             
 except:
     print("Error")
